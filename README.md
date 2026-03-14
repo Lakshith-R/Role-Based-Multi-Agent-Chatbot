@@ -3,7 +3,7 @@
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Welcome to the **Agentic Student Assistant**! This is a modular, AI-powered system designed specifically to help students, researchers, and lifelong learners with their daily academic and professional tasks. 
+Welcome to the **Role-Based-Multi-Agent-Chatbot**! This is a modular, AI-powered system designed specifically to help students, researchers, and lifelong learners with their daily academic and professional tasks. 
 
 By using "agentic AI" (AI agents that can make decisions and use tools), this assistant intelligently routes your questions to specialized agents depending on what you need—whether that's searching for academic papers, looking for a job, getting book recommendations, or asking questions about your personal documents.
 
