@@ -102,8 +102,8 @@ uvicorn app.backend.main:app --reload
 Here is a simple breakdown of the files in this project so you can easily understand where everything lives:
 
 ```text
-📂 Agentic_Student_Assistant/
-├── 📂 agentic_student_assistant/   # 🧠 Core Brain of the AI
+📂 Role-Based-Multi-Agent-Chatbot/
+├── 📂 Role-Based-Multi-Agent-Chatbot/   # 🧠 Core Brain of the AI
 │   ├── 📂 core/                    # Contains orchestrator (LangGraph) that decides which agent to use
 │   ├── 📂 talk2books/              # The logic for the Book Recommendation agent
 │   ├── 📂 talk2docs/               # The logic for parsing PDFs and the Vector Database
