@@ -40,8 +40,8 @@ Before you start, make sure you have:
 ### 1. Clone the Repository
 Open your terminal (Command Prompt or PowerShell on Windows, Terminal on macOS/Linux) and run:
 ```bash
-git clone https://github.com/hsrak/Agentic_Student_Assistant.git
-cd Agentic_Student_Assistant
+git clone https://github.com/Lakshith-R/Role_Based_Multi-Agent_Chatbot.git
+cd Role_Based_Multi-Agent_Chatbot
 ```
 
 ### 2. Install Dependencies
