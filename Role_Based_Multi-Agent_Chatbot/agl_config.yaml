@@ -1,0 +1,53 @@
+# Agent Lightning Configuration
+# Defines agents and optimization parameters
+
+project_name: "Agentic Student Assistant"
+experiment_name: "optimize_docs_agent_v1"
+
+# Global Training Parameters
+training:
+  algorithm: "grpo" # Group Relative Policy Optimization
+  epochs: 10
+  batch_size: 32
+  learning_rate: 1e-5
+  reward_scale: 1.0
+
+# Agents to Optimize
+agents:
+  - name: "docs_agent"
+    description: "Agent for document Q&A"
+    optimize:
+      - target: "prompt" # Optimize system prompt
+        template_name: "document_qa_prompt"
+        max_prompt_length: 2048
+
+  - name: "router_agent"
+    description: "Agent for query routing"
+    optimize:
+      - target: "prompt"
+        template_name: "router_system"
+    algorithm: "ppo" # Proximal Policy Optimization for classification
+
+  # Paper Recommendation Agent
+  - name: "paper_agent"
+    algorithm: "GRPO"
+    learning_rate: 0.00001
+    optimization_target: "academic_accuracy"
+
+  # Book Recommendation Agent
+  - name: "books_agent"
+    algorithm: "PPO"
+    learning_rate: 0.00005
+    optimization_target: "relevance"
+
+  # Job Market Agent
+  - name: "job_agent"
+    algorithm: "GRPO"
+    learning_rate: 0.00001
+    optimization_target: "career_alignment"
+
+# Offline Data Collection
+# Can collect using: agl collect --config agl_config.yaml
+data_collection:
+  source: "live" # Collect from live traffic via emit_reward
+  buffer_size: 1000 # Number of episodes before training

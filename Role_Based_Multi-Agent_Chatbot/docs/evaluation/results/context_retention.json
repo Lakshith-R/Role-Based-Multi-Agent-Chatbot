@@ -1,0 +1,51 @@
+{
+  "overall_score": 0.0,
+  "scenarios": [
+    {
+      "scenario": "Paper Follow-Up",
+      "description": "Checks if assistant remembers which paper was shown first",
+      "eval_keywords": [
+        "transformer",
+        "attention",
+        "model",
+        "architecture"
+      ],
+      "matched_keywords": [],
+      "keyword_score": 0.0,
+      "context_score": 0.0,
+      "final_response_length": 0,
+      "final_response_preview": ""
+    },
+    {
+      "scenario": "Book Then Clarification",
+      "description": "Checks if assistant can recommend within a previously listed set",
+      "eval_keywords": [
+        "beginner",
+        "introduct",
+        "basic",
+        "start"
+      ],
+      "matched_keywords": [],
+      "keyword_score": 0.0,
+      "context_score": 0.0,
+      "final_response_length": 0,
+      "final_response_preview": ""
+    },
+    {
+      "scenario": "Job + Skill Bridge",
+      "description": "Checks if assistant bridges job results to skills in context",
+      "eval_keywords": [
+        "python",
+        "tensorflow",
+        "pytorch",
+        "skill",
+        "experience"
+      ],
+      "matched_keywords": [],
+      "keyword_score": 0.0,
+      "context_score": 0.0,
+      "final_response_length": 0,
+      "final_response_preview": ""
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+document_qa_prompt: |
+  You are an expert document analyst helping users understand their uploaded documents.
+
+  **User Query:** {query}
+
+  **Relevant Document Chunks:**
+  {document_chunks}
+
+  **Conversation History:**
+  {chat_history}
+
+  **Instructions:**
+  1. Answer the user's question using ONLY the provided document chunks.
+  2. **CRITICAL**: Read and synthesize ALL provided chunks to form a complete answer. Do not just summarize the first one.
+  3. If the question implies listing items (e.g., "what courses", "list all"), ensure you list EVERYTHING found in the chunks.
+  4. If the exact answer is not in the text, state clearly what IS covered instead.
+  5. Use bullet points for lists and structure the answer clearly.
+
+  **Output Format:**
+  Provide a comprehensive, detailed argument. If listing items, use a structured list.
+
+document_summary_prompt: |
+  You are a document summarization expert.
+
+  **Document Content:**
+  {document_content}
+
+  **Task:**
+  Provide a comprehensive summary of this document.
+
+  **Include:**
+  - **Main Topic**: What is this document about?
+  - **Key Points**: What are the most important takeaways? (3-5 bullet points)
+  - **Document Type**: Is this a research paper, report, article, guide, etc.?
+
+  **Output Format:**
+  Return a well-structured summary in markdown format.

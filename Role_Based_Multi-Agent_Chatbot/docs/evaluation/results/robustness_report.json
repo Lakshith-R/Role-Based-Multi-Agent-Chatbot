@@ -1,0 +1,59 @@
+{
+  "total_interactions": 65,
+  "overall_fallback_rate": 0.1846,
+  "average_confidence": 0.9015,
+  "low_confidence_rate": 0.0462,
+  "edge_case_accuracy": 0.9107,
+  "low_confidence_threshold": 0.6,
+  "per_agent": {
+    "books": {
+      "queries": 8,
+      "fallbacks": 0,
+      "fallback_rate": 0.0,
+      "avg_confidence": 0.913
+    },
+    "cached": {
+      "queries": 18,
+      "fallbacks": 0,
+      "fallback_rate": 0.0,
+      "avg_confidence": 1.0
+    },
+    "documents": {
+      "queries": 8,
+      "fallbacks": 0,
+      "fallback_rate": 0.0,
+      "avg_confidence": 0.888
+    },
+    "error": {
+      "queries": 3,
+      "fallbacks": 0,
+      "fallback_rate": 0.0,
+      "avg_confidence": 0.0
+    },
+    "fallback": {
+      "queries": 12,
+      "fallbacks": 12,
+      "fallback_rate": 1.0,
+      "avg_confidence": 0.983
+    },
+    "job_market": {
+      "queries": 8,
+      "fallbacks": 0,
+      "fallback_rate": 0.0,
+      "avg_confidence": 0.9
+    },
+    "orchestrator": {
+      "queries": 4,
+      "fallbacks": 0,
+      "fallback_rate": 0.0,
+      "avg_confidence": 0.9
+    },
+    "papers": {
+      "queries": 4,
+      "fallbacks": 0,
+      "fallback_rate": 0.0,
+      "avg_confidence": 0.9
+    }
+  },
+  "source": "log_file"
+}

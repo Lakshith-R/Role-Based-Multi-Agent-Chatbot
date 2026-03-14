@@ -1,0 +1,45 @@
+defaults:
+  - models: gpt4
+  - prompts: prompts
+  - _self_
+
+app:
+  name: "Agentic Student Assistant"
+  log_dir: "logs"
+  version: "2.0"
+
+vectorstore:
+  qdrant:
+    collection_name: "test"
+    url: ${oc.env:QDRANT_URL}
+    api_key: ${oc.env:QDRANT_API_KEY}
+  faiss:
+    index_path: "vectorstore/faiss_index"
+
+retrieval:
+  search_type: "mmr"
+  top_k: 5
+  similarity_threshold: 0.7
+
+routing:
+  use_llm_router: true
+  confidence_threshold: 0.6
+  fallback_on_low_confidence: true
+
+caching:
+  enabled: true
+  ttl_seconds: 3600
+  max_size: 1000
+  redis:
+    host: ${oc.env:REDIS_HOST, "localhost"}
+    port: ${oc.env:REDIS_PORT, 6379}
+    db: ${oc.env:REDIS_DB, 0}
+    password: ${oc.env:REDIS_PASSWORD, null}
+
+observability:
+  langsmith:
+    enabled: false
+    project_name: "student-assistant"
+  metrics:
+    track_latency: true
+    track_token_usage: true

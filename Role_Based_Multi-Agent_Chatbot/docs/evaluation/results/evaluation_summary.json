@@ -1,0 +1,9 @@
+{
+  "E1_Router_Accuracy": "N/A",
+  "E1_Avg_Confidence": "N/A",
+  "E2_Avg_Response_Quality": 7.77,
+  "E3_Mean_Latency_All_Agents": 6.054,
+  "E4_Avg_Confidence": 0.9015,
+  "E4_Fallback_Rate": 0.1846,
+  "E5_Context_Retention_Score": 0.0
+}

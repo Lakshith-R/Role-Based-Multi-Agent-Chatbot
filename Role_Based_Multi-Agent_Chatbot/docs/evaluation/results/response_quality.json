@@ -1,0 +1,275 @@
+{
+  "agent_averages": {
+    "books": {
+      "relevance": 6.09,
+      "completeness": 7.9,
+      "overall": 7.0,
+      "n": 8
+    },
+    "fallback": {
+      "relevance": 3.96,
+      "completeness": 9.7,
+      "overall": 6.83,
+      "n": 12
+    },
+    "orchestrator": {
+      "relevance": 7.92,
+      "completeness": 10.0,
+      "overall": 8.96,
+      "n": 4
+    },
+    "job_market": {
+      "relevance": 7.92,
+      "completeness": 9.15,
+      "overall": 8.53,
+      "n": 8
+    },
+    "documents": {
+      "relevance": 4.39,
+      "completeness": 8.05,
+      "overall": 6.22,
+      "n": 8
+    },
+    "papers": {
+      "relevance": 8.17,
+      "completeness": 10.0,
+      "overall": 9.08,
+      "n": 4
+    }
+  },
+  "source": "log_file",
+  "details": {
+    "books": [
+      {
+        "relevance": 2.0,
+        "completeness": 10.0,
+        "overall": 6.0
+      },
+      {
+        "relevance": 10.0,
+        "completeness": 2.62,
+        "overall": 6.31
+      },
+      {
+        "relevance": 5.0,
+        "completeness": 10.0,
+        "overall": 7.5
+      },
+      {
+        "relevance": 6.0,
+        "completeness": 10.0,
+        "overall": 8.0
+      },
+      {
+        "relevance": 5.71,
+        "completeness": 10.0,
+        "overall": 7.86
+      },
+      {
+        "relevance": 10.0,
+        "completeness": 2.34,
+        "overall": 6.17
+      },
+      {
+        "relevance": 5.0,
+        "completeness": 10.0,
+        "overall": 7.5
+      },
+      {
+        "relevance": 5.0,
+        "completeness": 8.24,
+        "overall": 6.62
+      }
+    ],
+    "fallback": [
+      {
+        "relevance": 5.0,
+        "completeness": 10.0,
+        "overall": 7.5
+      },
+      {
+        "relevance": 5.0,
+        "completeness": 10.0,
+        "overall": 7.5
+      },
+      {
+        "relevance": 5.0,
+        "completeness": 10.0,
+        "overall": 7.5
+      },
+      {
+        "relevance": 5.0,
+        "completeness": 8.08,
+        "overall": 6.54
+      },
+      {
+        "relevance": 5.0,
+        "completeness": 10.0,
+        "overall": 7.5
+      },
+      {
+        "relevance": 0.0,
+        "completeness": 9.76,
+        "overall": 4.88
+      },
+      {
+        "relevance": 5.0,
+        "completeness": 10.0,
+        "overall": 7.5
+      },
+      {
+        "relevance": 5.0,
+        "completeness": 10.0,
+        "overall": 7.5
+      },
+      {
+        "relevance": 0.0,
+        "completeness": 8.6,
+        "overall": 4.3
+      },
+      {
+        "relevance": 7.5,
+        "completeness": 10.0,
+        "overall": 8.75
+      },
+      {
+        "relevance": 5.0,
+        "completeness": 10.0,
+        "overall": 7.5
+      },
+      {
+        "relevance": 0.0,
+        "completeness": 10.0,
+        "overall": 5.0
+      }
+    ],
+    "orchestrator": [
+      {
+        "relevance": 6.67,
+        "completeness": 10.0,
+        "overall": 8.33
+      },
+      {
+        "relevance": 10.0,
+        "completeness": 10.0,
+        "overall": 10.0
+      },
+      {
+        "relevance": 8.33,
+        "completeness": 10.0,
+        "overall": 9.17
+      },
+      {
+        "relevance": 6.67,
+        "completeness": 10.0,
+        "overall": 8.33
+      }
+    ],
+    "job_market": [
+      {
+        "relevance": 6.0,
+        "completeness": 10.0,
+        "overall": 8.0
+      },
+      {
+        "relevance": 8.0,
+        "completeness": 10.0,
+        "overall": 9.0
+      },
+      {
+        "relevance": 6.67,
+        "completeness": 3.2,
+        "overall": 4.93
+      },
+      {
+        "relevance": 8.0,
+        "completeness": 10.0,
+        "overall": 9.0
+      },
+      {
+        "relevance": 8.0,
+        "completeness": 10.0,
+        "overall": 9.0
+      },
+      {
+        "relevance": 10.0,
+        "completeness": 10.0,
+        "overall": 10.0
+      },
+      {
+        "relevance": 10.0,
+        "completeness": 10.0,
+        "overall": 10.0
+      },
+      {
+        "relevance": 6.67,
+        "completeness": 10.0,
+        "overall": 8.33
+      }
+    ],
+    "documents": [
+      {
+        "relevance": 4.0,
+        "completeness": 2.22,
+        "overall": 3.11
+      },
+      {
+        "relevance": 4.0,
+        "completeness": 2.22,
+        "overall": 3.11
+      },
+      {
+        "relevance": 5.0,
+        "completeness": 10.0,
+        "overall": 7.5
+      },
+      {
+        "relevance": 0.0,
+        "completeness": 10.0,
+        "overall": 5.0
+      },
+      {
+        "relevance": 4.29,
+        "completeness": 10.0,
+        "overall": 7.14
+      },
+      {
+        "relevance": 5.0,
+        "completeness": 10.0,
+        "overall": 7.5
+      },
+      {
+        "relevance": 7.14,
+        "completeness": 10.0,
+        "overall": 8.57
+      },
+      {
+        "relevance": 5.71,
+        "completeness": 10.0,
+        "overall": 7.86
+      }
+    ],
+    "papers": [
+      {
+        "relevance": 6.67,
+        "completeness": 10.0,
+        "overall": 8.33
+      },
+      {
+        "relevance": 10.0,
+        "completeness": 10.0,
+        "overall": 10.0
+      },
+      {
+        "relevance": 6.0,
+        "completeness": 10.0,
+        "overall": 8.0
+      },
+      {
+        "relevance": 10.0,
+        "completeness": 10.0,
+        "overall": 10.0
+      }
+    ]
+  }
+}

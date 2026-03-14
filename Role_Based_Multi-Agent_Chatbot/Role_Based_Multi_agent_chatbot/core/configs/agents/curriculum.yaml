@@ -1,0 +1,11 @@
+retrieval:
+  search_type: "mmr"
+  top_k: 5
+  fetch_k: 20
+  lambda_mult: 0.5
+
+memory:
+  enabled: true
+  memory_key: "chat_history"
+  return_messages: true
+  output_key: "answer"
